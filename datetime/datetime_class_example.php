@@ -38,4 +38,16 @@
 	echo $finishedAt->format('Y-m-d') . PHP_EOL;
 	echo $startedAt->format('Y-m-d') . PHP_EOL;
 	exit;*/
+
+
+	// - Get datetime to timestamp
+	/*$date = DateTimeImmutable::createFromFormat('d/m/Y H:i:s', "22/01/2022 00:00:00");
+	echo $date->format('Y-m-d').PHP_EOL;
+	echo $date->getTimestamp().PHP_EOL;*/
+
+	/*$date = new DateTimeImmutable("2022-01-25");
+	echo $date->getTimestamp();
+	exit;*/
+
+	// - 
 ?>
