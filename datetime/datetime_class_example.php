@@ -49,5 +49,22 @@
 	echo $date->getTimestamp();
 	exit;*/
 
-	// - 
+
+	// - Get timestamp to datetime
+	$timestamp = 1648982713;
+	// $timestamp = time();
+	$dateTimeFormat = 'Y-m-d H:i:s';
+
+	// $dateTimeObject = new \DateTime('now');
+	// If you must have use time zones
+	/*$dateTimeObject = new \DateTime('now', new \DateTimeZone('Asia/Kolkata'));
+	$dateTimeObject->setTimestamp($timestamp);
+	echo $dateTimeObject->format($dateTimeFormat);*/
+	// OR
+	/*$dateTimeObject = new DateTime();
+	$dateTimeZoneObject = new DateTimeZone('Asia/Kolkata');
+	$dateTimeObject->setTimezone($dateTimeZoneObject);
+	$dateTimeObject->setTimestamp($timestamp);
+	echo $dateTimeObject->format($dateTimeFormat);
+	exit;*/
 ?>
