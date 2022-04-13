@@ -67,4 +67,10 @@
 	$dateTimeObject->setTimestamp($timestamp);
 	echo $dateTimeObject->format($dateTimeFormat);
 	exit;*/
+
+	/*
+	$dateTimeObject = new DateTimeImmutable('now');
+	echo $dateTimeObject->format('l');
+	exit;
+	*/
 ?>
